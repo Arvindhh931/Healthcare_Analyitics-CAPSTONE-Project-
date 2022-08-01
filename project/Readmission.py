@@ -36,7 +36,7 @@ if selected == "Information":
         background-image: url("data:image/png;base64,%s");
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 50px 150px;
+        background-position: 300px 500px;
         background-size: 500px 200px;
         }
         </style>
