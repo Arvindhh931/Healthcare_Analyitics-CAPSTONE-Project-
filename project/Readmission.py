@@ -18,8 +18,8 @@ def set_background(png_file):
     background-image: url("data:image/png;base64,%s");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 500px 250px;
+    background-position: center top;
+    background-size: 500px 200px;
     }
     </style>
     ''' % bin_str
