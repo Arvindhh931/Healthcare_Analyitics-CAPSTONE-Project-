@@ -22,7 +22,7 @@ def set_background(png_file):
     </style>
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
-set_background("/project/health.png")
+set_background("./project/health.png")
 
 st.header("Predict the hospital Re-admission")
 
