@@ -27,12 +27,34 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 
 | Attribute         |    type       |                       Information                                 |
 | ----------------- | ------------- |------------------------------------------------------------------ |
-| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
-| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
-| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
-| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
-| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
-| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
-| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
-| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
-|Patient number |	Numeric |	Unique identifier of a patient |
+| Encounter ID | Numeric  | Unique identifier of an encounter  |
+| Patient number | Numeric  | Unique identifier of a patient  |
+| Race | Nominal  | Values: Caucasian, Asian, African American, Hispanic, and other  |
+| Gender | Nominal  | Values: male, female, and unknown/invalid  | 
+| Age | Nominal  | Grouped in 10-year intervals: (0, 10), (10, 20), ..., (90, 100) |
+| Weight | Numeric  | Weight in pounds.  |
+| Admission type | Nominal  | 'Integer identifier corresponding to 9 distinct values, for example, emergency, 
+                                 urgent, elective, newborn, and not available. |
+| Discharge disposition | Nominal  | 
+| Admission source | Nominal  | 
+| Time in hospital | Numeric  | 
+| Payer code | Nominal  | 
+| Medical specialty | Nominal  | 
+| Number of lab procedures | Numeric  | 
+| Number of procedures | Numeric  | 
+| Number of medications | Numeric  | 
+| Number of outpatient visits | Numeric  | 
+| Number of emergency visits | Numeric  | 
+| Number of inpatient visits | Numeric  | 
+| Diagnosis 1 | Nominal  | 
+| Diagnosis 2 | Nominal  | 
+| Diagnosis 3 | Nominal  | 
+| Number of diagnoses | Numeric  | 
+| Glucose serum test result | Nominal  | 
+| A1c test result | Nominal  | 
+| Change of medications | Nominal  | 
+| Diabetes medications | Nominal  | 
+| 23 features for medications | Nominal  | 
+| Readmitted | Nominal  | 
+
+
