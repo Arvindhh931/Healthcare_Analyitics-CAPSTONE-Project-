@@ -43,8 +43,8 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | Payer code | Nominal  | 'Integer identifier corresponding to 17 distinct values, for example, |
 | | | Blue Cross\\Blue, Shield, Medicare, and self-pay. |
 
-| Medical specialty | Nominal  | Integer identifier of a specialty of the admitting physician, corresponding to 84 distinct values, |
-|||for example, cardiology, internal medicine, family\\general practice, and surgeon. |
+| Medical specialty | Nominal  | Integer identifier of a specialty of the admitting physician, corresponding to 84 distinct values, 
+| | |for example, cardiology, internal medicine, family\\general practice, and surgeon. |
 
 | Number of lab procedures | Numeric  | Number of lab tests performed during the encounter. |
 | Number of procedures | Numeric  | Number of procedures (other than lab tests) performed during the encounter. |
