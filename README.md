@@ -43,19 +43,23 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | Payer code | Nominal  | 'Integer identifier corresponding to 17 distinct values, for example, 
 | | | Blue Cross\\Blue, Shield, Medicare, and self-pay. |
 
-| Medical specialty | Nominal  | 
-| Number of lab procedures | Numeric  | 
-| Number of procedures | Numeric  | 
-| Number of medications | Numeric  | 
-| Number of outpatient visits | Numeric  | 
-| Number of emergency visits | Numeric  | 
-| Number of inpatient visits | Numeric  | 
-| Diagnosis 1 | Nominal  | 
-| Diagnosis 2 | Nominal  | 
-| Diagnosis 3 | Nominal  | 
-| Number of diagnoses | Numeric  | 
-| Glucose serum test result | Nominal  | 
-| A1c test result | Nominal  | 
+| Medical specialty | Nominal  | Integer identifier of a specialty of the admitting physician, corresponding to 84 distinct, values, 
+|||for example, cardiology, internal medicine, family\\general practice, and surgeon. |
+
+| Number of lab procedures | Numeric  | Number of lab tests performed during the encounter. |
+| Number of procedures | Numeric  | Number of procedures (other than lab tests) performed during the encounter. |
+| Number of medications | Numeric  | Number of distinct generic names administered during the encounter. |
+| Number of outpatient visits | Numeric  | 'Number of outpatient visits of the patient in the year preceding the encounter. |
+| Number of emergency visits | Numeric  | 'Number of emergency visits of the patient in the year preceding the encounter. |
+| Number of inpatient visits | Numeric  | Number of inpatient visits of the patient in the year preceding the encounter. |
+| Diagnosis 1 | Nominal  | The primary diagnosis (coded as first three digits of ICD9); 848 distinct values. |
+| Diagnosis 2 | Nominal  | Secondary diagnosis (coded as first three digits of ICD9); 923 distinct values. |
+| Diagnosis 3 | Nominal  | Additional secondary diagnosis (coded as first three digits of ICD9); 954 distinct values. |
+| Number of diagnoses | Numeric  | Number of diagnoses entered to the system. |
+| Glucose serum test result | Nominal  | Indicates the range of the result or if the test was not taken. 
+|||Values: “>200,” “>300,”“normal,” and “none” if not measured. |
+| A1c test result | Nominal  | Indicates the range of the result or if the test was not taken. 
+|||Values: “>8” if the result was greater than 8% | |||“>7” if the result was greater than 7% but less than 8%| ||| “normal” if the result was less than 7%, and “none” if not measured. |
 | Change of medications | Nominal  | 
 | Diabetes medications | Nominal  | 
 | 23 features for medications | Nominal  | 
