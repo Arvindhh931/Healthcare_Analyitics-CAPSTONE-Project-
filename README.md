@@ -61,11 +61,21 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | | | “>7” if the result was greater than 7% but less than 8% | 
 | | | “normal” if the result was less than 7%, and |
 | | | “none” if not measured. |
-
-| Change of medications | Nominal  | 'Indicates if there was a change in diabetic medications (either dosage or generic name). 
+| Change of medications | Nominal  | 'Indicates if there was a change in diabetic medications (either dosage or generic name). |
 | | | Values: “change” and “no change”. |
-| Diabetes medications | Nominal  | 
-| 23 features for medications | Nominal  | 
-| Readmitted | Nominal  | 
+| 23 features for medications | Nominal  | 'For the generic names: metformin, repaglinide, nateglinide, chlorpropamide,glimepiride, acetohexamide,|
+| | | glipizide, glyburide, tolbutamide, pioglitazone, rosiglitazone, acarbose, miglitol, |
+| | | troglitazone, tolazamide, examide, sitagliptin, insulin, glyburide-metformin, glipizide-metformin, |
+| | | glimepiride-pioglitazone, metformin-rosiglitazone, and metformin-pioglitazone, |
+| | | the feature indicates whether  the drug was prescribed or there was a change in the dosage. |
+| | | Values: “up” if the dosage was increased during the encounter, | 
+| | | “down” if the dosage was decreased, |
+| | | “steady” if the dosage did not change, | 
+| | | and “no” if the drug was not prescribed. |
+| Diabetes medications | Nominal |'Indicates if there was any diabetic medication prescribed. Values: “yes” and “no”. |
+| Readmitted | Nominal  | Days to inpatient readmission. |
+| | | Values: “<30” if the patient was readmitted in less than 30 days,|
+| | | “>30” if the patient was readmitted in more than 30 days,|
+| | | and “No” for no record of readmission. |
 
 
