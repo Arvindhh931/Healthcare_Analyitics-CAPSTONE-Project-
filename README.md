@@ -35,10 +35,14 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | Weight | Numeric  | Weight in pounds.  |
 | Admission type | Nominal  | 'Integer identifier corresponding to 9 distinct values, 
 | | |                for example, emergency,urgent, elective, newborn, and not available. |
-| Discharge disposition | Nominal  | 
-| Admission source | Nominal  | 
-| Time in hospital | Numeric  | 
-| Payer code | Nominal  | 
+| Discharge disposition | Nominal  | 'Integer identifier corresponding to 29 distinct values, 
+| | | for example, discharged to home, expired, and not available. |
+| Admission source | Nominal  | 'Integer identifier corresponding to 21 distinct values,
+| |  | for example, physician referral, emergency room, and transfer from a hospital.|
+| Time in hospital | Numeric  | 'Integer number of days between admission and discharge. |
+| Payer code | Nominal  | 'Integer identifier corresponding to 17 distinct values, for example, 
+| | | Blue Cross\\Blue, Shield, Medicare, and self-pay. |
+
 | Medical specialty | Nominal  | 
 | Number of lab procedures | Numeric  | 
 | Number of procedures | Numeric  | 
