@@ -33,8 +33,8 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | Gender | Nominal  | Values: male, female, and unknown/invalid  | 
 | Age | Nominal  | Grouped in 10-year intervals: (0, 10), (10, 20), ..., (90, 100) |
 | Weight | Numeric  | Weight in pounds.  |
-| Admission type | Nominal  | 'Integer identifier corresponding to 9 distinct values, for example, emergency, 
-                                 urgent, elective, newborn, and not available. |
+| Admission type | Nominal  | 'Integer identifier corresponding to 9 distinct values, 
+| | |                for example, emergency,urgent, elective, newborn, and not available. |
 | Discharge disposition | Nominal  | 
 | Admission source | Nominal  | 
 | Time in hospital | Numeric  | 
