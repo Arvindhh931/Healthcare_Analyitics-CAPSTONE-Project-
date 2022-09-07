@@ -33,17 +33,17 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | Gender | Nominal  | Values: male, female, and unknown/invalid  | 
 | Age | Nominal  | Grouped in 10-year intervals: (0, 10), (10, 20), ..., (90, 100) |
 | Weight | Numeric  | Weight in pounds.  |
-| Admission type | Nominal  | 'Integer identifier corresponding to 9 distinct values, 
+| Admission type | Nominal  | 'Integer identifier corresponding to 9 distinct values, |
 | | |                for example, emergency,urgent, elective, newborn, and not available. |
-| Discharge disposition | Nominal  | 'Integer identifier corresponding to 29 distinct values, 
+| Discharge disposition | Nominal  | 'Integer identifier corresponding to 29 distinct values, |
 | | | for example, discharged to home, expired, and not available. |
-| Admission source | Nominal  | 'Integer identifier corresponding to 21 distinct values,
+| Admission source | Nominal  | 'Integer identifier corresponding to 21 distinct values,|
 | |  | for example, physician referral, emergency room, and transfer from a hospital.|
 | Time in hospital | Numeric  | 'Integer number of days between admission and discharge. |
-| Payer code | Nominal  | 'Integer identifier corresponding to 17 distinct values, for example, 
+| Payer code | Nominal  | 'Integer identifier corresponding to 17 distinct values, for example, |
 | | | Blue Cross\\Blue, Shield, Medicare, and self-pay. |
 
-| Medical specialty | Nominal  | Integer identifier of a specialty of the admitting physician, corresponding to 84 distinct, values, 
+| Medical specialty | Nominal  | Integer identifier of a specialty of the admitting physician, corresponding to 84 distinct values, |
 |||for example, cardiology, internal medicine, family\\general practice, and surgeon. |
 
 | Number of lab procedures | Numeric  | Number of lab tests performed during the encounter. |
@@ -57,9 +57,12 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | Diagnosis 3 | Nominal  | Additional secondary diagnosis (coded as first three digits of ICD9); 954 distinct values. |
 | Number of diagnoses | Numeric  | Number of diagnoses entered to the system. |
 | Glucose serum test result | Nominal  | Indicates the range of the result or if the test was not taken. |
-|||Values: “>200,” “>300,”“normal,” and “none” if not measured. |
+| | |Values: “>200,” “>300,”“normal,” and “none” if not measured. |
 | A1c test result | Nominal  | Indicates the range of the result or if the test was not taken. |
-|||Values: “>8” if the result was greater than 8% | |||“>7” if the result was greater than 7% but less than 8%| ||| “normal” if the result was less than 7%, and “none” if not measured. |
+| | | Values: “>8” if the result was greater than 8% | 
+| | | “>7” if the result was greater than 7% but less than 8% | 
+| | | “normal” if the result was less than 7%, and “none” if not measured. |
+
 | Change of medications | Nominal  | 
 | Diabetes medications | Nominal  | 
 | 23 features for medications | Nominal  | 
