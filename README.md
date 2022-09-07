@@ -28,6 +28,11 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | Attribute         |    type       |                       Information                                 |
 | ----------------- | ------------- |------------------------------------------------------------------ |
 | Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
-
-
-
+| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
+| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
+| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
+| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
+| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
+| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
+| Encounter ID      |   Numeric     |   Unique identifier of an encounter                            |
+|Patient number |	Numeric |	Unique identifier of a patient |
