@@ -56,9 +56,9 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | Diagnosis 2 | Nominal  | Secondary diagnosis (coded as first three digits of ICD9); 923 distinct values. |
 | Diagnosis 3 | Nominal  | Additional secondary diagnosis (coded as first three digits of ICD9); 954 distinct values. |
 | Number of diagnoses | Numeric  | Number of diagnoses entered to the system. |
-| Glucose serum test result | Nominal  | Indicates the range of the result or if the test was not taken. 
+| Glucose serum test result | Nominal  | Indicates the range of the result or if the test was not taken. |
 |||Values: “>200,” “>300,”“normal,” and “none” if not measured. |
-| A1c test result | Nominal  | Indicates the range of the result or if the test was not taken. 
+| A1c test result | Nominal  | Indicates the range of the result or if the test was not taken. |
 |||Values: “>8” if the result was greater than 8% | |||“>7” if the result was greater than 7% but less than 8%| ||| “normal” if the result was less than 7%, and “none” if not measured. |
 | Change of medications | Nominal  | 
 | Diabetes medications | Nominal  | 
