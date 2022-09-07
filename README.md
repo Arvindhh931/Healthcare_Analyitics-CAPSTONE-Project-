@@ -59,7 +59,8 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | A1c test result | Nominal  | Indicates the range of the result or if the test was not taken. |
 | | | Values: “>8” if the result was greater than 8% | 
 | | | “>7” if the result was greater than 7% but less than 8% | 
-| | | “normal” if the result was less than 7%, and “none” if not measured. |
+| | | “normal” if the result was less than 7%, and |
+| | | “none” if not measured. |
 
 | Change of medications | Nominal  | 'Indicates if there was a change in diabetic medications (either dosage or generic name). 
 | | | Values: “change” and “no change”. |
