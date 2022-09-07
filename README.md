@@ -11,7 +11,8 @@ To avoid value-based penalties (disincentives), Hospitals should reduce readmiss
 
 The main objective of our work is to come up with the predictive model which helps Hospital Management systems to predict the risk of early readmission of patients who are having Diabetes Mellitus which can further address to escape value based penalty and better patient care.
 
-- The need for glucose level monitoring like HBA1c test.
+- The need for glucose level monitoring like HBA1c test to detect in early stages.
+- Proper medication and care for diabetic patients
 - Better patient engagement, Transitional care & close post-discharge follow-up with the intention of reducing early readmission
 
 ### Scope of the project 
