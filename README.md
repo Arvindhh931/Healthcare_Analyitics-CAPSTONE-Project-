@@ -91,7 +91,10 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | diag_2 | object | 101766 | 358 | 0.35 | 748 |
 | diag_3 | object | 101766 | 1423 | 1.40 | 789 |
 
-
+## Strategy for Imputation
+- using patient_nbr attribute
+   - Taking information from Some patients who have visited multiple times
+- KNN-imputer
 
 
 
