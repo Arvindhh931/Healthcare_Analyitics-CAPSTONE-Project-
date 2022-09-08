@@ -79,4 +79,9 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | | | “>30” if the patient was readmitted in more than 30 days,|
 | | | and “No” for no record of readmission. |
 
+## Missing values
 
+| Attribute	| Data_type |	Total_Entries	| Null_values	| Percent_Null_values |	Unique_values |
+| --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+
+| 0 | weight | object | 101766 | 98569 | 96.86 | 9 |
