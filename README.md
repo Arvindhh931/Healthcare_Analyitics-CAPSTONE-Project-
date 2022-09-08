@@ -83,5 +83,4 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 
 | Attribute	| Data_type |	Total_Entries	| Null_values	| Percent_Null_values |	Unique_values |
 | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
-
 | 0 | weight | object | 101766 | 98569 | 96.86 | 9 |
