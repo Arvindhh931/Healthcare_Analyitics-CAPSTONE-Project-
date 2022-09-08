@@ -87,9 +87,9 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | medical_specialty | object | 101766 | 49949 | 49.08 | 72 |
 | payer_code | object | 101766 | 40256 | 39.56 | 17 |
 | race | object | 101766 | 2273 | 2.23 | 5 |
-| diag_1 | object | 101766 | 21 | 0.02 | 716 |
-| diag_2 | object | 101766 | 358 | 0.35 | 748 |
-| diag_3 | object | 101766 | 1423 | 1.40 | 789 |
+| Diagnosis1 | object | 101766 | 21 | 0.02 | 716 |
+| Diagnosis2 | object | 101766 | 358 | 0.35 | 748 |
+| Diagnosis3 | object | 101766 | 1423 | 1.40 | 789 |
 
 ## Strategy for Imputation
 - using patient_nbr attribute
