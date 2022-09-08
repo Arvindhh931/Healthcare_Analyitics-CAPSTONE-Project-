@@ -93,7 +93,7 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 
 ## Strategy for Imputation
 - using patient_nbr attribute
-   - Taking information from Some patients who have visited multiple times
+   - Taking information from Some patients who have visited multiple times & not filled certain columns
 - K-Nearest-Neighbour-imputer
 
 
