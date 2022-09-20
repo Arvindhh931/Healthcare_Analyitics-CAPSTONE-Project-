@@ -95,7 +95,7 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 
 ### Readmission status            |  ### Solarized Ocean
 :-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/4.png) 
 Readmission Status             |  Race 
 :-------------------------:|:-------------------------:
