@@ -93,19 +93,6 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 
 ## Exploratory Data Analysis
 
-<img class=mobile-image src="https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/10.png" />
-<img class=mobile-image src="https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/12.png" />
-
-<style>
-  .img {
-    display: inline-block;
-  }
-  img.mobile-image {
-    width: 49%;
-    display: inline-block;
-  }
-</style>
-
 Readmission Status             |  Race 
 :-------------------------:|:-------------------------:
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/4.png) 
