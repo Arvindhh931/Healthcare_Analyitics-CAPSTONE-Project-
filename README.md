@@ -106,9 +106,9 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
   }
 </style>
 
-Solarized dark             |  Solarized Ocean
+Readmission Status             |  Race 
 :-------------------------:|:-------------------------:
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/10.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/12.png) 
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/4.png) 
 
 ## Strategy for Imputation
 - using patient_nbr attribute
