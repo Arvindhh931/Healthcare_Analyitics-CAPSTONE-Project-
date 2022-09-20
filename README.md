@@ -93,12 +93,18 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 
 ## Exploratory Data Analysis
 
-![alt text](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/12.png)
-
-![alt text](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/10.png)
-
-
-
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Holiday Mention</td>
+     <td>Present day in purple and selected day in pink</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/12.png" width=270 height=480></td>
+    <td><img src="https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/10" width=270 height=480></td>
+    <td><img src="screenshots/Screenshot_1582745139.png" width=270 height=480></td>
+  </tr>
+ </table>
 
 
 ## Strategy for Imputation
