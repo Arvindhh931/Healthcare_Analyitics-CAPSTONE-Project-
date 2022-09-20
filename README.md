@@ -97,6 +97,10 @@ Readmission Status             |  Race
 :-------------------------:|:-------------------------:
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/4.png) 
 
+Readmission Status             |  Race 
+:-------------------------:|:-------------------------:
+
+
 ## Strategy for Imputation
 - using patient_nbr attribute
    - Taking information from Some patients who have visited multiple times & not filled certain columns
