@@ -91,6 +91,14 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | Diagnosis2 | object | 101766 | 358 | 0.35 | 748 |
 | Diagnosis3 | object | 101766 | 1423 | 1.40 | 789 |
 
+## Exploratory Data Analysis
+
+![alt text](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/10.png)
+
+
+
+
+
 ## Strategy for Imputation
 - using patient_nbr attribute
    - Taking information from Some patients who have visited multiple times & not filled certain columns
