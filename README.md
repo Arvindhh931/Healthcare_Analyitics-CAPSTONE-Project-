@@ -101,7 +101,7 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 |:-------------------------:|
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/10-1.png)
 
-| *Number of lab procedures*  |
+| *Number of lab procedures a patient has undergone*  |
 |:-------------------------:|
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/13-1.png)
 
