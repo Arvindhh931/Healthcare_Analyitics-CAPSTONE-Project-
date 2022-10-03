@@ -9,6 +9,10 @@ To avoid value-based penalties (disincentives), Hospitals should reduce readmiss
 
 ### Business Objective
 
+| *CONFUSION MATRIX*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/57.png)
+
 The main objective of our work is to come up with the predictive model which helps Hospital Management systems to predict the risk of early readmission of patients who are having Diabetes Mellitus which can further address to escape value based penalty and better patient care.
 
 - The need for glucose level monitoring like HBA1c test to detect in early stages.
@@ -101,9 +105,14 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 :-------------------------:|:-------------------------:
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/2.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png) 
 
+
 | *HBA1c Diabetes level indicators*  |
 |:-------------------------:|
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/37.png)
+
+| *Different Diabetic tests and levels of diabetes*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/38.png)
 
 
 | *Number of days a patient has spent his/her time in hospital during Treatment*  |
@@ -146,9 +155,9 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 |:-------------------------:|
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/33.png)
 
-| *Diabetic Medication with Target*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/48.png)
+| *Diabetic Medication*           |  *Diabetic Medication with Target*
+:-------------------------:|:-------------------------:
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/47.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/48.png) 
 
 ## Strategy for Imputation
 - using patient_nbr attribute
