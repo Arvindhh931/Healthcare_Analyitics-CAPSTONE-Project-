@@ -101,7 +101,7 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 :-------------------------:|:-------------------------:
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/2.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png) 
 
-| *HBA1c Diabetes level indicator*  |
+| *HBA1c Diabetes level indicators*  |
 |:-------------------------:|
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/37.png)
 
