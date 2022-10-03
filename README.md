@@ -101,7 +101,8 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 :-------------------------:|:-------------------------:
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/2.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png) 
 
-| *HBA1c - Various Glucose levels *           |  *Different diabetes detection tests & Various Glucose levels*
+
+| *HBA1c - Various Glucose levels*   |  *Different diabetes detection tests and Various Glucose levels*
 :-------------------------:|:-------------------------:
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/37.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/38.png) 
 
