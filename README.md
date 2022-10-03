@@ -97,6 +97,10 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 :-------------------------:|:-------------------------:
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/2.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png) 
 
+| *Glucose Serum Test*           |  *HBA1c Test*
+:-------------------------:|:-------------------------:
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/2.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png) 
+
 | *Number of days a patient has spent his/her time in hospital during Treatment*  |
 |:-------------------------:|
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/11.png)
@@ -129,6 +133,17 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 |:-------------------------:|
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/22.png)
 
+| *Number of Emergency visits prior to present encounter*           |  *Number of diagnosis entered into the system*
+:-------------------------:|:-------------------------:
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/21-1.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/26.png) 
+
+| *Various Medications*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/31.png)
+
+| *Medication change 'No' or 'change'*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/33.png)
 
 ## Strategy for Imputation
 - using patient_nbr attribute
