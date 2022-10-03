@@ -117,6 +117,17 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 |:-------------------------:|
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/15.png)
 
+| *Number of Medications*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/18.png)
+
+| *Number of Inpatient & Outpatient visits prior to present encounter*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/19.png)
+
+| *Primary, Secondary & Additional Secondary diagnosis*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/22.png)
 
 
 ## Strategy for Imputation
