@@ -101,6 +101,11 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 :-------------------------:|:-------------------------:
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/2.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png) 
 
+| *HBA1c - Various Glucose levels *           |  *Different diabetes detection tests & Various Glucose levels*
+:-------------------------:|:-------------------------:
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/37.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/38.png) 
+
+
 | *Number of days a patient has spent his/her time in hospital during Treatment*  |
 |:-------------------------:|
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/11.png)
@@ -140,6 +145,10 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 | *Medication change 'No' or 'change'*  |
 |:-------------------------:|
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/33.png)
+
+| *Diabetic Medication*           |  *Diabetic Medication with Target*
+:-------------------------:|:-------------------------:
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/47.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/48.png) 
 
 ## Strategy for Imputation
 - using patient_nbr attribute
