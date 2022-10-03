@@ -95,19 +95,28 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 
 | *Readmission status*           |  *Race of Patients*
 :-------------------------:|:-------------------------:
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/4.png) 
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/2.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png) 
 
 | *Number of days a patient has spent his/her time in hospital during Treatment*  |
 |:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/10-1.png)
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/11.png)
 
-| *Number of lab procedures a patient has undergone*  |
+| *Number of days a patient has spent his/her time in hospital during Treatment*  |
 |:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/13-1.png)
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/11.png)
 
-| *Number of medication a patient is taking*  |
+| *Top Medical speciality*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/13.png)
+
+| *Number of Lab procedures*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/14.png)
+
+| *Number of Lab procedures*  |
 |:-------------------------:|
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/15.png)
+
 
 
 ## Strategy for Imputation
