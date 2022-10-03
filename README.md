@@ -159,6 +159,11 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 |:-------------------------:|
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/48.png)
 
+| *Pair plot of certain numeric variables*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/45.png)
+
+
 ## Strategy for Imputation
 - using patient_nbr attribute
    - Taking information from Some patients who have visited multiple times & not filled certain columns
