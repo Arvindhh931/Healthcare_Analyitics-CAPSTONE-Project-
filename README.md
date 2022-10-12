@@ -1,6 +1,6 @@
 # Prediction of Hospital readmission of Diabetic patients & Imporatance of HBA1c test
 
-![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Misc/Images/stethoscope-calculator-finance-account-statistics-analytic-research-data-business-company-medical-health-concept-208048195.jpg)
+          ![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Misc/Images/stethoscope-calculator-finance-account-statistics-analytic-research-data-business-company-medical-health-concept-208048195.jpg)
 
 ## Business problem statement (GOALS)
 
