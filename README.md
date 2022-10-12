@@ -1,6 +1,6 @@
 # Prediction of Hospital readmission of Diabetic patients & Imporatance of HBA1c test
 
-          ![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Misc/Images/stethoscope-calculator-finance-account-statistics-analytic-research-data-business-company-medical-health-concept-208048195.jpg)
+![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Misc/Images/stethoscope-calculator-finance-account-statistics-analytic-research-data-business-company-medical-health-concept-208048195.jpg)
 
 ## Business problem statement (GOALS)
 
@@ -20,6 +20,8 @@ The main objective of our work is to come up with the predictive model which hel
 - The need for glucose level monitoring like HBA1c test to detect in early stages.
 - Proper medication and care for diabetic patients
 - Better patient engagement, Transitional care & close post-discharge follow-up with the intention of reducing early readmission
+
+![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Misc/Images/istockphoto-1307873015-612x612.jpg)
 
 ### Scope of the project 
 
