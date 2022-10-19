@@ -169,6 +169,13 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 
 
 ## Missing value Imputation
-- Using patient_nbr attribute
-   - Taking information from Some patients who have visited multiple times & not filled certain columns
-- K-Nearest-Neighbour-imputer
+
+| *Missing values*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Visualizations/1.png)
+
+- Race (127 values imputed Using information from patient_nbr attribute i.e 
+Taking information from Some patients who have visited multiple times & not filled certain columns)
+
+- Rest missing values were imputed using Multivariate_imputation_through_chianed_equations (K-Nearest-Neighbour as algorithm)
+  - (Race,Diagnosis_1,Diagnosis_2,Diagnosis_3)
