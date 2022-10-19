@@ -179,3 +179,13 @@ Taking information from Some patients who have visited multiple times & not fill
 
 - Rest missing values were imputed using Multivariate_imputation_through_chianed_equations (K-Nearest-Neighbour as algorithm)
   - (Race,Diagnosis_1,Diagnosis_2,Diagnosis_3)
+
+## Feature Engineering
+
+| *Health Index*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Visualizations/59.png)
+
+| *Severity of disease*  |
+|:-------------------------:|
+![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Visualizations/60.png)
