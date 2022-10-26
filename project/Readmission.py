@@ -197,12 +197,13 @@ if selected == "Prediction":
         scaling = pickle.load(scale)
     with open('./serialization/Numeric_model.pickle','rb') as model:
         Model = pickle.load(model)
+
     data = scaling.transform(numerical_df)   
     # prediction = Model.predict(data)
 
     st.dataframe(numerical_df)
 
-    st.write(data)
+    # st.write(data)
 
 
 
