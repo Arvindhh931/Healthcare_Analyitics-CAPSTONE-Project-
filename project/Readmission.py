@@ -199,7 +199,7 @@ if selected == "Prediction":
         Model = pickle.load(model)
 
     data = scaling.transform(numerical_df)   
-    # prediction = Model.predict(data)
+    prediction = Model.predict(data)
 
     st.dataframe(numerical_df)
 
