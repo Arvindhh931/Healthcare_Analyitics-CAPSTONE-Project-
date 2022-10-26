@@ -195,9 +195,9 @@ if selected == "Prediction":
             
     if st.button("Predict"):
             with open('./serialization/scalar.pickle','rb') as scale:
-            scaling = pickle.load(scale)
+                        scaling = pickle.load(scale)
             with open('./serialization/Numeric_model.pickle','rb') as model:
-            Model = pickle.load(model)
+                        Model = pickle.load(model)
 
             data = scaling.transform(numerical_df)   
             prediction = Model.predict(data)[0]
