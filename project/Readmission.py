@@ -193,10 +193,10 @@ if selected == "Prediction":
     numerical_df['Health_index'] = hospital_data
     numerical_df['severity_of_disease'] = severity
 
-    with open('./serialization/scalar.pickle','rb') as scale:
-        scaling = pickle.load(scale)
-    with open('./serialization/Numeric_model.pickle','rb') as model:
-        Model = pickle.load(model)
+    with open('./serialization/scalar.pickle','rb') as s:
+        scaling = pickle.load(s)
+    with open('./serialization/Numeric_model.pickle','rb') as m:
+        Model = pickle.load(m)
 
     data = scaling.transform(numerical_df)   
     prediction = Model.predict(data)
