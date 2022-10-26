@@ -205,7 +205,7 @@ if selected == "Prediction":
                         st.success("Patient has no risk of Readmission !!")
             else:
                         st.error("Patient has a potential risk of Readmission !!")
-            st.write(prediction)
+
 
 
 
