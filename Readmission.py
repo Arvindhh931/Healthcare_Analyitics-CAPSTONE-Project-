@@ -7,6 +7,7 @@ import datetime
 import pandas as pd
 import numpy as np
 import pickle
+import sklearn
 
 st.set_page_config(page_title='Diabetic Hospital Readmission',page_icon="🚑")
 st.header("Prediction of Early hospital Re-admissions")
