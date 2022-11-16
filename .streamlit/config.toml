@@ -10,4 +10,3 @@ font="sans serif"
 enableCORS=false
 enableXsrfProtection=false
 enableWebsocketCompression=false
-port=8501
