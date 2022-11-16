@@ -11,8 +11,7 @@ import sklearn
 
 features = dict()
 numerical = dict()
-numerical_df = pd.DataFrame(columns=['time_in_hospital', 'num_lab_procedures', 'num_procedures','num_medications', 
-                                     'number_outpatient', 'number_emergency','number_inpatient', 'number_diagnoses'])
+numerical_df = pd.DataFrame(columns=['time_in_hospital', 'num_lab_procedures', 'num_procedures','num_medications','number_outpatient', 'number_emergency','number_inpatient', 'number_diagnoses'])
 
 st.markdown("##### Patient Information")
 dob1,dob2,dob3 = st.columns(3)
