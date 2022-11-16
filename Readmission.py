@@ -181,16 +181,16 @@ numerical_df['severity_of_disease'] = severity
 
 if st.button("Predict"):
     with open('./serialization/scalar.pickle','rb') as scale:
-                scaling = pickle.load(scale)
+        scaling = pickle.load(scale)
     with open('./serialization/Numeric_model.pickle','rb') as model:
-                Model = pickle.load(model)
+        Model = pickle.load(model)
 
     data = scaling.transform(numerical_df)   
     prediction = Model.predict(data)[0]
     if prediction == 0:
-                st.success("Patient has no risk of Readmission !!")
+        st.success("Patient has no risk of Readmission !!")
     else:
-                st.error("Patient has a potential risk of Readmission !!")
+        st.error("Patient has a potential risk of Readmission !!")
 
 
 
