@@ -8,3 +8,6 @@ font="sans serif"
 
 [server]
 port = 80
+
+[browser]
+gatherUsageStats = false
