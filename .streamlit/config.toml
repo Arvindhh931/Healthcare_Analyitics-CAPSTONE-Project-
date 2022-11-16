@@ -10,3 +10,6 @@ font="sans serif"
 enableCORS=false
 enableXsrfProtection=false
 enableWebsocketCompression=false
+
+[browser]
+gatherUsageStats=false
