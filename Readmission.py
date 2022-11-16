@@ -16,17 +16,17 @@ numerical_df = pd.DataFrame(columns=['time_in_hospital', 'num_lab_procedures', '
 st.markdown("##### Patient Information")
 dob1,dob2,dob3 = st.columns(3)
 with dob1:
-year = st.selectbox("Year",list(range(1900,2023)))
+    year = st.selectbox("Year",list(range(1900,2023)))
 with dob2:  
-month = st.selectbox("Month",['January','February','March','April','May','June','July','August','September','October','November','December'])
+    month = st.selectbox("Month",['January','February','March','April','May','June','July','August','September','October','November','December'])
 with dob3: 
-if month == 'February':
-    day = st.selectbox("Day",list(range(1,30)))
-elif month in ['April','June','September','November']:
-    day = st.selectbox("Day",list(range(1,31)))
-else:
-    day = st.selectbox("Day",list(range(1,32)))
-dob = str(dob1)+ str(dob2) + str(dob3)
+    if month == 'February':
+        day = st.selectbox("Day",list(range(1,30)))
+    elif month in ['April','June','September','November']:
+        day = st.selectbox("Day",list(range(1,31)))
+    else:
+        day = st.selectbox("Day",list(range(1,32)))
+    dob = str(dob1)+ str(dob2) + str(dob3)
 
 w,A = st.columns(2)
 with w:
@@ -74,9 +74,9 @@ with col9:
     num_emergency = st.number_input("Number of prior Emergency visits",min_value=0,value=0,key='num_emer')
     features['number_emergency'] = num_emergency
     numerical['number_emergency'] = num_emergency
+    
 test_title = '<p style="font-family:sans-serif; color:Green; font-size: 25px;">Glucose Monitering Tests</p>'
 st.markdown(test_title,unsafe_allow_html=True)     
-# st.markdown("##### Glucose monitering tests")
 
 col10,col11= st.columns(2)
 with col10:
