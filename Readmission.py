@@ -15,11 +15,10 @@ st.header("Prediction of Early hospital Re-admissions")
 selected = option_menu(menu_title=None,options=["Prediction","Project","Diabetes info"],
 icons=["house","book","envelope"],menu_icon="cast",default_index=0,
 orientation='horizontal',
-styles={
-            "container": {"padding": "0!important", "background-color": "#DCE9FA","font-color":"#000"},
-            "icon": {"color": "orange", "font-size": "20px"}, 
-            "nav-link": {"font-size": "20px", "text-align": "left", "margin":"0px", "--hover-color": "#3399CC",
-            "--hover-font-color": "white"},"nav-link-selected": {"background-color": "green"}})
+styles={"container": {"padding": "0!important", "background-color": "#DCE9FA","font-color":"#000"},
+        "icon": {"color": "orange", "font-size": "20px"},
+        "nav-link": {"font-size": "20px", "text-align": "left", "margin":"0px", "--hover-color": "#3399CC",
+                     "--hover-font-color": "white"},"nav-link-selected": {"background-color": "green"}})
 if selected == "Prediction":
     features = dict()
     numerical = dict()
