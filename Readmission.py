@@ -34,7 +34,7 @@ with w:
 with A:    
     Age = st.selectbox("Age",['0-10','10-20','20-30','30-40','40-50','50-60','60-70', '70-80', '80-90', '90-100'])    
     Age = "["+ Age +")"
-    features['age'] = Age
+features['age'] = Age
 
 col1,col2,col3 = st.columns(3)
 with col1:
@@ -48,7 +48,6 @@ with col3:
 
 admission_title = '<p style="font-family:sans-serif; color:Green; font-size: 25px;">Admission & discharge Information of patient</p>'
 st.markdown(admission_title,unsafe_allow_html=True)  
-# st.markdown("##### Admission & discharge Information")
 
 col4,col5,col6 = st.columns(3)
 with col4:
@@ -89,7 +88,7 @@ with col10:
         HBA1c = '>7'
     if HBA1c == 'greater than 8.0':
         HBA1c = '>8'
-    features['A1Cresult'] = HBA1c
+features['A1Cresult'] = HBA1c
 
 with col11:
     Serum_test = st.selectbox("Glucose serum test results",['No test done', 'greater than 300', 'Normal result','greater than 200'])
@@ -101,13 +100,11 @@ with col11:
         Serum_test = '>300'
     if Serum_test == 'greater than 200':
         Serum_test = '>200'
-    features['max_glu_serum'] = Serum_test
+features['max_glu_serum'] = Serum_test
 
 
 diag_title = '<p style="font-family:sans-serif; color:Green; font-size: 25px;">Diagnoses and procedures</p>'
 st.markdown(diag_title,unsafe_allow_html=True)    
-
-# st.markdown("##### Diagnoses and procedures")
 
 col12,col13,col14 = st.columns(3)
 with col12:
@@ -184,7 +181,6 @@ if st.button("Predict"):
         scaling = pickle.load(scale)
     with open('./serialization/Numeric_model.pickle','rb') as model:
         Model = pickle.load(model)
-
     data = scaling.transform(numerical_df)   
     prediction = Model.predict(data)[0]
     if prediction == 0:
