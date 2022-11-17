@@ -1,4 +1,4 @@
-# Prediction of Hospital readmission of Diabetic patients & Imporatance of HBA1c test
+# Prediction of Hospital readmission of Diabetic patients & Imporatance of Glucose monitering (HBA1c test) in case of diabetic patients
 
 ## Deployment - [Web app for prediction of early readmission](https://arvindhh931-healthcare-analyitics-capstone-p-readmission-8c63k2.streamlit.app/)
 
