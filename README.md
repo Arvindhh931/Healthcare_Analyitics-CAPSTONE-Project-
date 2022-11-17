@@ -1,6 +1,6 @@
 # Prediction of Hospital readmission of Diabetic patients & Imporatance of HBA1c test
 
-## Deployment - [Web app for prediction of early readmission](https://arvindhh931-healthcare-analyitics-capstone-p-readmission-h9orum.streamlit.app/)
+## Deployment - [Web app for prediction of early readmission](https://arvindhh931-healthcare-analyitics-capstone-p-readmission-8c63k2.streamlit.app/)
 
 ![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Misc/Images/stethoscope-calculator-finance-account-statistics-analytic-research-data-business-company-medical-health-concept-208048195.jpg)
 
