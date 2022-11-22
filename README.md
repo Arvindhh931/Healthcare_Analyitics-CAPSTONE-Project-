@@ -34,6 +34,17 @@ As cost of inpatient care & readmission rates are higher in patients with diabet
 -	Our model is not capable of accounting the factors such as socio-economic characteristics of patient, 
 - With most efforts focused on reducing readmissions, there is a potential to overlook the stress and vulnerability of patients.
 
+### Problems faced
+
+-	Require domain expertise for Data understanding (highly domain specific i.e Health care) 
+  remedy - consultation with the colleagues who are associated with health care domain
+- Encoding data for Multi-variate imputation through chined equations (KNN as a base algorithm with neighbours = 5)
+  remedy - Nominal features being label encoded, Ordinal features being ordinally encoded & classifying a missing label considering only some features.
+- Encountered a feature which is most important but had 53% missing values 
+  remedy - considered them as 'missing category (Not mentioned)' in the analysis
+- Data preparation
+  remedy - tried with label encoding and Dummy encoding, Dummy encoding yielded good results, implemented a pipeline & column transformer class
+
 ## Data dictionary
 
 | Attribute         |    type       |                       Information                                 |
