@@ -13,17 +13,11 @@ To avoid value-based penalties (disincentives), Hospitals should reduce readmiss
 
 ### Business Objective
 
-| *CONFUSION MATRIX*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/57.png)
-
 The main objective of our work is to come up with the predictive model which helps Hospital Management systems to predict the risk of early readmission of patients who are having Diabetes Mellitus which can further address to escape value based penalty and better patient care.
 
 - The need for glucose level monitoring like HBA1c test to detect in early stages.
 - Proper medication and care for diabetic patients
 - Better patient engagement, Transitional care & close post-discharge follow-up with the intention of reducing early readmission
-
-![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Misc/Images/istockphoto-1307873015-612x612.jpg)
 
 ### Scope of the project 
 
@@ -116,80 +110,9 @@ remedy : tried with label encoding and Dummy encoding, Dummy encoding yielded go
 | Diagnosis2 | object | 101766 | 358 | 0.35 | 748 |
 | Diagnosis3 | object | 101766 | 1423 | 1.40 | 789 |
 
-## Exploratory Data Analysis
-
-| *Readmission status*           |  *Redifining the objective (Binary classification)*
-:-------------------------:|:-------------------------:
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/2.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png) 
-
-| *Glucose Serum Test*           |  *HBA1c Test*
-:-------------------------:|:-------------------------:
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/2.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/3.png) 
-
-
-| *HBA1c Diabetes level indicators*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/37.png)
-
-| *Different Diabetic tests and levels of diabetes*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/38.png)
-
-
-| *Number of days a patient has spent his/her time in hospital during Treatment*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/11.png)
-
-| *Top Medical speciality*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/13.png)
-
-| *Number of Lab procedures*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/14.png)
-
-| *Number of Lab procedures*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/15.png)
-
-| *Number of Medications*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/18.png)
-
-| *Number of Inpatient & Outpatient visits prior to present encounter*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/19.png)
-
-| *Primary, Secondary & Additional Secondary diagnosis*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/22.png)
-
-| *Number of Emergency visits prior to present encounter*           |  *Number of diagnosis entered into the system*
-:-------------------------:|:-------------------------:
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/21-1.png)  |  ![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/26.png) 
-
-| *Various Medications*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/31.png)
-
-| *Medication change 'No' or 'change'*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/33.png)
-
-| *Diabetic Medication with Target*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/48.png)
-
-| *Pair plot of certain numeric variables*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics/blob/main/Visualizations/45.png)
-
 
 ## Missing value Imputation
 
-| *Missing values*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Visualizations/1.png)
 
 - Race (127 values imputed Using information from patient_nbr attribute i.e 
 Taking information from Some patients who have visited multiple times & not filled certain columns)
@@ -198,11 +121,3 @@ Taking information from Some patients who have visited multiple times & not fill
   - (Race,Diagnosis_1,Diagnosis_2,Diagnosis_3)
 
 ## Feature Engineering
-
-| *Health Index*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Visualizations/59.png)
-
-| *Severity of disease*  |
-|:-------------------------:|
-![](https://github.com/Arvindhh931/Healthcare_Analyitics-CAPSTONE-Project-/blob/main/Visualizations/60.png)
