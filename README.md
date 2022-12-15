@@ -110,9 +110,7 @@ remedy : tried with label encoding and Dummy encoding, Dummy encoding yielded go
 | Diagnosis2 | object | 101766 | 358 | 0.35 | 748 |
 | Diagnosis3 | object | 101766 | 1423 | 1.40 | 789 |
 
-
 ## Missing value Imputation
-
 
 - Race (127 values imputed Using information from patient_nbr attribute i.e 
 Taking information from Some patients who have visited multiple times & not filled certain columns)
